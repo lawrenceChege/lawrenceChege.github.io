@@ -86,14 +86,6 @@ background-color: rgba(129 ,189 ,225, 0.2);
     background-attachment: relative;
     max-width: 100%;
 }
-#biz{
-    background-image: url("/static/images/banner01.jpg");
-   /* background-size: cover;*/
-    background-repeat: repeat;
-    background-position: center;
-    background-attachment: relative;
-    max-width: 100%;
-}
 .ban > .navbar-nav{
     opacity: 0.3;
     filter: alpha(opacity=30);
