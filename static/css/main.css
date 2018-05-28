@@ -4,6 +4,7 @@ body{
     font-size: 22px;
     /* background-repeat: no-repeat; */
     background-image: url(../Images/maintenance.jpg);
+    background-size: 100%;
  }
 /* navigation bar*/ 
 .nav-bar {
@@ -12,9 +13,13 @@ body{
     background-color: rgba(44, 14, 14, 0.74);
     position: -webkit-sticky; /* Safari */
     position: sticky;
+    z-index: 1000;
             
 }
-
+.signup{
+    width: 50%;
+    margin: auto;
+}
 .sticky{
     position: fixed;
     top: 0;
@@ -82,25 +87,26 @@ body{
     align-items: baseline;
     align-content: center; 
     z-index: -1;  
-     
+         
 }
 .flex-container>div{
     background-color: darkgray;
-    width:70%;
+    width:50%;
     margin: 10px;
     text-align: center;
     color:rgb(12, 12, 12);
-    background-image: url(../Images/maintenance2.jpg);
+    /* background-image: url(../Images/maintenance2.jpg); */
     opacity: 0.8;
+    border-radius: 50px;
 }
-.flex-container>div>p{
+/* .flex-container>div>p{
     background-color: rgba(169, 169, 169, 0.76);
     
 }
 .flex-container>div>h4{
     background-color: rgba(169, 169, 169, 0.445);
     
-}
+} */
 .flex-container.footer{
     height: 7px;
     align-content: flex-end;
@@ -109,12 +115,12 @@ body{
     opacity: 0.5;
 }
 .flex-container>form{
-    background-color: rgba(192, 183, 183, 0.562);
     display: table;
     width: 30%;
     align-items: center;
     margin-top: 10px;
     font-family: "Bad script";
+    margin: 0px;
     
 }
 .flex-container>:hover{
@@ -195,8 +201,12 @@ th{
     background-color: rgba(22, 223, 223, 0.849)
 }
 .blue{
-    background-color: blue;
+    background-color: cornflowerblue;
     
+}
+
+.soma{
+    background-color: #D6F599;
 }
 .purple{
     background-color: rgb(134, 75, 134);
@@ -506,7 +516,7 @@ input[type=submit]:hover {
 /* The actual content */
 .content {
     padding: 20px 30px;
-    background-color:gray;
+    background-color: #D6F599;
     position: relative;
     z-index: 1;
     border-radius: 6px;
@@ -524,6 +534,7 @@ input[type=submit]:hover {
 round{
     border-radius: 30%;
 }
+.water{background-color: dodgerblue}
 .status{background-color: fuchsia}
 .success {background-color: #4CAF50;} /* Green */
 .success:hover {background-color: #46a049;}

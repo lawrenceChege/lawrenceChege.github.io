@@ -11,6 +11,11 @@
     <link rel="shortcut icon" href="../static/icons/favicon.ico">
     <link rel="icon" type="image/gif" href="../static/icons/animated_favicon1.gif">
     <script src="../static/js/main.js"></script>
+    <style>
+        body {
+            background-image: none;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -22,20 +27,20 @@
     <nav class="nav-bar">
         <ul>
             <li><a href="#">Maintenance Tracker</a></li>
-            <li><a  href="../index.html"><i class="fa fa-home"></i>
+            <li><a  href="../index.html"><i class="fa fa-home"></i>&nbsp;
                 Home</a></li>
             <div class="nav-bar-right">
                 <ul>
-                    <li><a class="active" href="signup.html"> <i class="fa fa-plug"></i>
+                    <li><a class="active" href="signup.html"> <i class="fa fa-plug"></i>&nbsp;
                         Sign Up</a></li>
-                    <li><a href="signin.html"><i class="fa fa-lock"></i>
+                    <li><a href="signin.html"><i class="fa fa-lock"></i>&nbsp;
                         Sign In</a></li>
                 </ul>
             </div>
         </ul>
     </nav>
     <!-- <section> -->
-        <div class="flex-container">
+        <div class="flex-container signup">
            <form action="">
                <div class="form-label">
                    <label for="firstname"> First name</label>
@@ -62,9 +67,8 @@
                     <input type="password" id="firstname" placeholder=" Enter Password" required>
                 </div><br>
                <p style="float:left;">Already a member? <a href="signin.html">sign in</a></p>
-                <input type="submit" value="Submit">           
-
-           </form>
+                <input type="submit" value="Submit">     
+            </form>
            
         </div>
     <!-- </section> -->
