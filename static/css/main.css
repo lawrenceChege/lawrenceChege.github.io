@@ -508,8 +508,11 @@ input[type=submit]:hover {
     padding: 20px 30px;
     background-color:gray;
     position: relative;
-    z-index: -1;
+    z-index: 1;
     border-radius: 6px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
 /* buttons*/
 .btn {
@@ -521,6 +524,7 @@ input[type=submit]:hover {
 round{
     border-radius: 30%;
 }
+.status{background-color: fuchsia}
 .success {background-color: #4CAF50;} /* Green */
 .success:hover {background-color: #46a049;}
 
